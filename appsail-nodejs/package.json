@@ -1,0 +1,33 @@
+{
+  "name": "appsail-nodejs",
+  "version": "0.0.1",
+  "description": "Sample AppSail application with NodeJS and express framework.",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/catalystbyzoho/appsail-nodejs.git"
+  },
+  "keywords": [
+    "AppSail"
+  ],
+  "author": "Juan Solorzano",
+  "bugs": {
+    "url": "https://github.com/catalystbyzoho/appsail-nodejs/issues"
+  },
+  "homepage": "https://github.com/catalystbyzoho/appsail-nodejs#readme",
+  "dependencies": {
+    "axios": "^1.7.2",
+    "body-parser": "^1.20.2",
+    "csv-stringify": "^6.5.0",
+    "dotenv": "^16.4.5",
+    "express": "^4.19.2",
+    "openai": "^4.47.2",
+    "zapier-platform-core": "^11.2.0",
+    "zcatalyst-sdk-node": "latest"
+  }
+}

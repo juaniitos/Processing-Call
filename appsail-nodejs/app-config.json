@@ -1,0 +1,16 @@
+{
+	"command": "node index.js",
+	"build_path": "C:\\Users\\Juan Solorzano\\Documents\\Dev\\appTranscriptionCalls\\appsail-nodejs",
+	"stack": "node16",
+	"env_variables": {
+		"PORT":9000,
+		"OPENAI_API_KEY": "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",
+		"ASSISTANT_ID": "asst_6eMwPvYBWKLZzQBvaSjCKqiF",
+		"THREAD_ID": "thread_781JuV6KbsztbldLBPgNY0lK"
+	},
+	"memory": 256,
+	"scripts": {
+		"preserve": "npm install",
+		"predeploy": "npm install"
+	}
+}

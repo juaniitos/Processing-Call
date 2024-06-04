@@ -1,0 +1,16 @@
+{
+  "project": {
+    "id": "14356000000442133"
+  },
+  "appsail": [
+    {
+      "runtime": "nodejs14.x",
+      "source": "C:\\Users\\Juan Solorzano\\Documents\\Dev\\appTranscriptionCalls\\appsail-nodejs",
+      "name": "AppProcessCall",
+      "type": "app_sail",
+      "platform": "nodejs",
+      "entry": "index.js",
+      "predeploy": "npm install"
+    }
+  ]
+}
